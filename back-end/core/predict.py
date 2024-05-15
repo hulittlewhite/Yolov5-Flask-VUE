@@ -1,5 +1,6 @@
 import cv2
 
+
 def predict(dataset, model, ext):
     global img_y
     x = dataset[0].replace('\\', '/')

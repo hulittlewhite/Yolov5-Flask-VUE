@@ -3,10 +3,10 @@
     <div class="top-left-edition">
       <span style="color: #21b3b9; font-weight: bold">
         <i class="el-icon-star-off" style="font-size: 23px"></i
-        >我的公众号：可达鸭的深度学习教程
+        >多尺度数据驱动的中药智能辨识研究
       </span>
       <span>
-        <i class="el-icon-time" style="font-size: 23px"></i>CSDN、B站：BIT可达鸭
+        <i class="el-icon-time" style="font-size: 23px"></i>いきのこり
       </span>
     </div>
     <div id="word">
@@ -19,7 +19,7 @@ export default {
   name: "Header",
   data() {
     return {
-      msg: "YOLOv5-WEB端",
+      msg: "YOLO系列-WEB端",
       activeIndex: "1",
     };
   },
@@ -35,7 +35,7 @@ export default {
 
 #word {
   margin-left: 45%;
-  margin-top: -35px;
+  margin-top: -30px;
   margin-bottom: 37px;
   height: 60px;
   line-height: 3.2em;
@@ -45,8 +45,8 @@ export default {
 h1 {
   /*text-align: center;*/
   color: #21b3b9;
-  letter-spacing: 30px;
-  font-size: 2.3em;
+  letter-spacing: 10px;
+  font-size: 1.6em;
 }
 
 .el-menu-demo {
@@ -74,7 +74,7 @@ i {
 
 .top-left-edition span {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: #999999;
   line-height: 24px;
   margin-right: 40px;
